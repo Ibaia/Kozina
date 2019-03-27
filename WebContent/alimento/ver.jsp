@@ -12,7 +12,7 @@
 <body>
 <style>
 table{
-	color: red;
+	color: green;
 }
 </style>
 	<main>
