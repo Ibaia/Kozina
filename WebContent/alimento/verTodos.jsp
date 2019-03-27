@@ -8,17 +8,19 @@
 <title>Alimentos - Eskatza</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/css/styles.css"/>
+<link rel="stylesheet" href="css/styles.css">  
 </head>
 <body>
 <header>
-	<nav><a class="btn btn-danger offset-md-2 col-md-8 " href="${pageContext.request.contextPath}/alimento/crear">+ Alimento</a></nav>
+	<nav><a class="btn btn-danger offset-md-2 col-md-8 mt-5" href="${pageContext.request.contextPath}/alimento/crear">+ Alimento</a></nav>
 </header>
+
 <!-- igrediente bat ezabatzen denean errore bat jaurtitzen da -->
 ${error}
-	<div class="offset-md-2 col-md-8">
-		<table border="1">
+	<div class="offset-md-2 col-md-8 mt-3">
+		<table class="table-striped" border="1">
 		<thead>
-			<tr>
+			<tr class="alimentos">
 				<th>id</th>
 				<th>nombre</th>
 				<th>descripcion</th>
