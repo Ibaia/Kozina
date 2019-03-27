@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="${pageContext.request.contextPath}/css/styles.css"/>
 </head>
 <body>
+	<!--Comentario desde github: Cambiar el color de rojo a verde-->
 <style>
 table{
 	color: green;
@@ -30,7 +31,7 @@ table{
 				<td>${alimento.nombre}</td>
 			</tr>
 			<tr>
-				<td>Descripción:</td>
+				<td>DescripciÃ³n:</td>
 				<td>${alimento.descripcion}</td>
 			</tr>
 		</table>
