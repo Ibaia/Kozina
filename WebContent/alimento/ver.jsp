@@ -13,7 +13,7 @@
 	<!--Comentario desde github: Cambiar el color de rojo a verde-->
 <style>
 table{
-	color: green;
+	color: purple;
 }
 </style>
 	<main>
