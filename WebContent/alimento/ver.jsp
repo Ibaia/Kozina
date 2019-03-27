@@ -13,7 +13,6 @@
 <style>
 table{
 	color: red;
-	backgrond-color: blue;
 }
 </style>
 	<main>
